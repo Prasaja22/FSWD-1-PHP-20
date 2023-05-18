@@ -1,6 +1,6 @@
 <?php
 
-    class animal{
+    class Animal{
 
         public $nama;
         public $jenis;
@@ -11,18 +11,17 @@
             $this-> nama = $nama;
             $this-> jenis = $jenis;
 
-            echo $this->getInfo();
+            echo $this->getInfo() . "\n";
         }
 
 
         public function getInfo(){
            
-            return "Nama: ".$this->nama . " Jenis: ".$this->jenis;
+            return "Hewan ini adalah : ".$this->nama . " Jenis: ".$this->jenis . "<br>" ;
 
         }
 
     }
 
-    $abel = new animal("Abel", "Dony");
 
 ?>
